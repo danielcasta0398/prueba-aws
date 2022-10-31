@@ -11,5 +11,6 @@ app.get('/home', ( req,res ) => {
 const PORT = 4040
 
 app.listen( PORT, () => {
-    `Escuchando por el puerto: ${PORT}`
+    console.log(`Escuchando por el puerto: ${PORT}`);
+    
 } )
